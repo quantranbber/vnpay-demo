@@ -23,9 +23,9 @@ import java.util.*;
  * @author xonv
  */
 @Service
-public class ajaxServlet {
+public class PayServiceImpl {
 
-    public String doPost(HttpServletRequest req) throws ServletException, IOException {
+    public String doPost(HttpServletRequest req) throws IOException {
         String vnp_Version = "2.0.0";
         String vnp_Command = "pay";
         String vnp_OrderInfo = req.getParameter("vnp_OrderInfo");

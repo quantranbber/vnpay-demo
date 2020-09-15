@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 public class testapi {
 
     @Autowired
-    private main.serviceimpl.ajaxServlet ajaxServlet;
+    private main.serviceimpl.PayServiceImpl ajaxServlet;
 
     @GetMapping("/test-pay")
     public ResponseEntity<?> testPay(HttpServletRequest request) {
